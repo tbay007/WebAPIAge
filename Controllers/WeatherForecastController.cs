@@ -4,7 +4,7 @@ namespace TodoApi.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class WeatherForecastController : ControllerBase
+public class AgeCalculateController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
     {
@@ -13,14 +13,14 @@ public class WeatherForecastController : ControllerBase
         "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
 
-    private readonly ILogger<WeatherForecastController> _logger;
+    private readonly ILogger<AgeCalculateController> _logger;
 
-    public WeatherForecastController(ILogger<WeatherForecastController> logger)
+    public AgeCalculateController(ILogger<AgeCalculateController> logger)
     {
         _logger = logger;
     }
 
-    [HttpGet(Name = "GetWeatherForecast")]
+    [HttpGet(Name = "AgeCalculate")]
     public IEnumerable<WeatherForecast> Get()
     {
         return Enumerable.Range(1, 5).Select(index => new WeatherForecast
@@ -30,5 +30,11 @@ public class WeatherForecastController : ControllerBase
             Summary = Summaries[Random.Shared.Next(Summaries.Length)]
         })
         .ToArray();
+    }
+
+    [HttpPost(Name = "AgeCalculateStringBDay", Order = 2)]
+    public string AgeCalculation(string birthday){
+
+        return "";
     }
 }
