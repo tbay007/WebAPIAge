@@ -1014,11 +1014,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/travis/Projects/TodoApi/TodoApi.csproj",
+      "projectUniqueName": "/Users/travis/Projects/TodoApi/WebAPIAge/TodoApi.csproj",
       "projectName": "TodoApi",
-      "projectPath": "/Users/travis/Projects/TodoApi/TodoApi.csproj",
+      "projectPath": "/Users/travis/Projects/TodoApi/WebAPIAge/TodoApi.csproj",
       "packagesPath": "/Users/travis/.nuget/packages/",
-      "outputPath": "/Users/travis/Projects/TodoApi/obj/",
+      "outputPath": "/Users/travis/Projects/TodoApi/WebAPIAge/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/travis/.nuget/NuGet/NuGet.Config"

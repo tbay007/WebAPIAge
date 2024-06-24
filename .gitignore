@@ -1,3 +1,4 @@
+./Users/travis/Projects/TodoApi/WebAPIAge
 .dotnet/8.0.302_IsDockerContainer.dotnetUserLevelCache
 .dotnet/8.0.302_MachineId.dotnetUserLevelCache
 .dotnet/8.0.302.aspNetCertificateSentinel
@@ -193,3 +194,7 @@
 
 .npm/_cacache/content-v2/sha512/15/42/dfedf6b23dda404a7715cb80cb877c727655c4249a6f2042e362335e41661467da5c95ca6f0994abda092637616bac6708ec6fdc26c204c24e7ff2f7d7a6
 .npm/_cacache/content-v2/sha512/15/c8/a3f48c115b6ed779d44826748e12ea52ed155c5ed39b2576dc50e5fddd408baaa39d46992fccacb038e4a2ce610afc8b374bf4475fd74b75fa3a4754359b
+WebAPIAge.sln
+/WebAPIAge/obj
+obj/*
+obj/project.assets.json
